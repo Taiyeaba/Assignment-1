@@ -94,7 +94,7 @@ h1 {
 p {
   font-size: 14px;
   color: #666;
-  line-height: 1.6;
+  
   margin-bottom: 20px;
 }
 
@@ -109,13 +109,11 @@ p {
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: white;
-  cursor: pointer;
-  flex: 1;
   margin: 0 5px;
   font-size: 16px;
   font-weight: bold;
   color: #333;
-  transition: all 0.3s ease;
+  
 }
 
 .donation-btn.active {
@@ -123,9 +121,7 @@ p {
   border-color: #5cb85c;
 }
 
-.donation-btn:hover {
-  background-color: #f0f0f0;
-}
+
 
 .custom-amount {
   padding: 10px;
@@ -141,11 +137,7 @@ p {
   color: white;
   border: none;
   border-radius: 5px;
-  cursor: pointer;
   font-size: 16px;
   font-weight: bold;
 }
 
-.submit-btn:hover {
-  background-color: #4cae4c;
-}
